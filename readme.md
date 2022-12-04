@@ -71,6 +71,4 @@ validates the configuration files in a directory, referring only to the configur
 
 Step 3 terraform apply
 
-used to apply the changes required to reach the desired state of the configuration#� �T�e�c�h�1�
-�
-�
+used to apply the changes required to reach the desired state of the configuration
