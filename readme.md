@@ -22,7 +22,8 @@ Problem Statement
     Second virtual machine -> entertain traffic from first virtual machine only and can reply the same virtual machine again.
     App can connect to database and database can connect to app but database cannot connect to web.
 
-please find the architecture diagram below : 
+please find the architecture diagram below : <img width="569" alt="Three tier architecture" src="https://user-images.githubusercontent.com/105639937/205514327-20615bdd-3320-47cc-8e50-0a6ed3bac2da.png">
+
 
 Note: Keep main and variable files different for each component
 Solution
