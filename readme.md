@@ -52,10 +52,10 @@ To run the code you need to append the variables in the terraform.tfvars
 Each module consists minimum two files: main.tf, vars.tf
 
 resourcegroup and networking modules consists of one extra file named output.tf
-Deployment
------------
-Steps
-------
+
+
+Deployment Steps
+----------------
 
 Step 0 terraform init
 
