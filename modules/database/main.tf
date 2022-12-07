@@ -7,7 +7,7 @@ resource "azurerm_mssql_server" "primary" {
     administrator_login_password = var.primary_database_password
 }
 
-resource "azurerm_sql_database" "db" {
+resource "azurerm_mssql_database" "db" {
   name                = "db"
   resource_group_name = var.resource_group
   location            = var.location
