@@ -18,7 +18,7 @@ resource "azurerm_network_security_group" "web-nsg" {
   security_rule {
     name                       = "ssh-rule-2"
     priority                   = 100
-    direction                  = "Inbound"
+    direction                  = "Outbound"
     access                     = "Deny"
     protocol                   = "Tcp"
     source_address_prefix      = "192.168.3.0/24"
